@@ -11,6 +11,11 @@ int main() {
   }
   *p = i;
   /* should delete p here! */
+
+
+  while(1){
+	std::cout << "looping" << std::endl;
+  }
   return 0;
 }
 
