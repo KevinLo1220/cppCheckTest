@@ -1,8 +1,8 @@
 #include <iostream>
-
+using namespace std;
 int main() {
   int i, *p;
-
+  int karray[10]={9};
   i = 0;
   p = new int;
   if(!p) {
@@ -12,9 +12,8 @@ int main() {
   *p = i;
   /* should delete p here! */
 
-
-  while(1){
-	std::cout << "looping" << std::endl;
+  for(i=0;i<11;i++){
+    std::cout << karray[i] << endl;
   }
   return 0;
 }
